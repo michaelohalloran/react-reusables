@@ -1,0 +1,25 @@
+.login-form {
+    text-align: center;
+    padding: 1%;
+    margin: 3%;
+    border: 1px solid black;
+    background-color: lightsalmon;
+}
+
+.login-form-btn, .login-form input {
+    margin: 2%;
+    font-size: 1.3rem;
+    padding: 4%;
+    width: 80%;
+    text-align: center;
+}
+
+.login-form-btn {
+    color: white;
+    background-color: lightsteelblue;
+}
+
+.login-form-btn:hover {
+    color: lightsteelblue;
+    background-color: white; 
+}

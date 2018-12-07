@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: darkgoldenrod;
+    font-family: 'Garamond',
+}
+
+.search-container {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.search-container input, button {
+    padding: 1%;
+    margin: 1%;
+}
+
+.search-container-btn {
+    color: white;
+    background-color: lightcoral;
+}
+
+.search-container-btn:hover {
+    color: lightcoral;
+    background-color: white;
+}
+
+.search-results-container {
+    list-style: none;
+}
+
+.search-result {
+    background-color: lightslategray;
+    width: 80%;
+    margin: 0 auto;
+}
