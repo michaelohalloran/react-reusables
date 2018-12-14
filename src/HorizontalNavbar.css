@@ -36,7 +36,7 @@
 @keyframes moveLinks {
     0% {
         opacity: 0;
-        transform: translateX(1000px);
+        transform: translateY(-100px);
     }
 
     100% {

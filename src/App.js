@@ -2,8 +2,9 @@ import React, {Component} from 'react';
 // import Form from './Form';
 // import SearchForm from './SearchForm';
 // import EditableList from './EditableList';
-import HorizontalNavbar from './HorizontalNavbar.js'
-;
+// import HorizontalNavbar from './HorizontalNavbar.js'
+// import Card from './Card';
+import ClickableEdit from './ClickableEdit.js'
 import './App.css';
 
 class App extends Component {
@@ -13,7 +14,9 @@ class App extends Component {
                 {/* <Form /> */}
                 {/* < SearchForm /> */}
                 {/* < EditableList/> */}
-                < HorizontalNavbar />
+                {/* < HorizontalNavbar /> */}
+                {/* <Card /> */}
+                <ClickableEdit />
             </div>
         );
     }
