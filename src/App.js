@@ -4,7 +4,8 @@ import React, {Component} from 'react';
 // import EditableList from './EditableList';
 // import HorizontalNavbar from './HorizontalNavbar.js'
 // import Card from './Card';
-import ClickableEdit from './ClickableEdit.js'
+// import ClickableEdit from './ClickableEdit.js';
+import EditLifecycles from './EditLifecycles';
 import './App.css';
 
 class App extends Component {
@@ -16,7 +17,8 @@ class App extends Component {
                 {/* < EditableList/> */}
                 {/* < HorizontalNavbar /> */}
                 {/* <Card /> */}
-                <ClickableEdit />
+                {/* <ClickableEdit /> */}
+                < EditLifecycles name='Bob'/>
             </div>
         );
     }

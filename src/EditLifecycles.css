@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    margin: 4% auto;
+    text-align: center;
+}
+
+.submit-btn {
+    margin: 3%;
+    padding: 1.5%;
+    border-radius: 10px;
+    color: white;
+    background-color: blueviolet;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    color: blueviolet;
+    background-color: ghostwhite;
+    transition: 0.2s all;
+    padding: 2%;
+}
+
+input {
+    padding: 1.5%;
+}
+
+.done {
+    background-color: lightgoldenrodyellow;
+}
+
+.done > p {
+    text-decoration: line-through;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: lightcyan;
+    padding: 1.5%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.edit-btn, .delete-btn {
+    padding: 1.5%;
+    border-radius: 50px;
+    color: white;
+    margin: 1%;
+    text-align: center;
+}
+
+.edit-btn:hover {
+    color: lightseagreen;
+    background-color: white;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    color: lightcoral;
+    background-color: white;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: lightseagreen;
+    margin-left: auto;
+}
+.delete-btn {
+    background-color: lightcoral;
+}
