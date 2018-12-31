@@ -14,6 +14,7 @@ class EditLifecycles extends Component {
             items: [],
             errors: [],
             completed: false,
+            lifecycleCount: 0,
         }
     }
 
@@ -40,6 +41,7 @@ class EditLifecycles extends Component {
         console.log('fired componentDidMount');
         this.fetchTodos();
     }
+    
     static getDerivedStateFromProps(props, state) {
         console.log('fired getDerivedState');
         console.log('gDS state:', state.name);
